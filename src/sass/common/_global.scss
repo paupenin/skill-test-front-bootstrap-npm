@@ -1,0 +1,11 @@
+/**
+ * Global styles
+ */
+html,
+body {
+    @extend .h-100;
+}
+
+body {
+    @extend .d-flex, .align-items-center;
+}

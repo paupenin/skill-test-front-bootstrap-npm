@@ -1,5 +1,27 @@
 /**
+ * Import variables
+ * 
+ */
+@import "common/variables";
+
+/**
+ * Import mixins
+ * 
+ */
+@import "common/mixins";
+
+/**
  * Import npm dependencies
  * 
  */
 @import "~bootstrap/scss/bootstrap";
+
+/**
+ * Import theme styles
+ * 
+ */
+@import "common/global";
+
+// Components
+@import "components/modals";
+@import "components/forms";
