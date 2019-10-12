@@ -1,7 +1,14 @@
 /**
- * Main JavaScript File
+ * Import npm dependencies
  * 
  */
-// $(document).ready(() => {
-//     // 
-// });
+window.$ = window.jQuery = require('jquery');
+require('bootstrap');
+
+/**
+ * Initialize JS
+ * 
+ */
+$(document).ready(() => {
+    // 
+});
