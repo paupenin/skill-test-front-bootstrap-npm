@@ -28,7 +28,7 @@ npm run start
 ## jQuery
 1. Make an AJAX request using jQuery to [REQ|RES](https://reqres.in) API.
 *The data of request must be the content introduced on the form.*
-```json
+```javascript
 {
   method: "POST",
   url: "https://reqres.in/api/users",
@@ -45,7 +45,7 @@ npm run start
 ## sweetalert2
 1. Install and require [sweetalert2](https://sweetalert2.github.io) (prefered via npm)
 2. Show sweetalert2 modal after AJAX request with following configuration where `${name}`, `${surname}`, `${id}` and `${email}` are the returned data from API:
-```json
+```javascript
 {
   type: "success",
   title: `User '${name} ${surname}' (${id}) created`,
