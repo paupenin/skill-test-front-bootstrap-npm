@@ -1,3 +1,14 @@
 /**
+ * Animation
+ */
+@keyframes slide-down {
+    from { top: -100%; }
+    to { top: 0; }
+}
+
+/**
  * Mixins
  */
+// mixin {
+//     animation: slide-down 1s;
+// }

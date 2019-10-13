@@ -9,6 +9,75 @@
     <title>Skill test for Front-end: Bootstrap and NPM</title>
   </head>
   <body>
-    <h1>Skill test for Front-end: Bootstrap and NPM</h1>
+    <div class="container">
+      <h1>Skill test for Front-end: Bootstrap and NPM</h1>
+
+      <br />
+
+      <!-- Modal trigger button -->
+      <a href="#" class="btn btn-primary">
+        Register now
+      </a>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal-skill-test" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Register user</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <!-- User register form -->
+            <form>
+              <div class="">
+                <label for="modal-skill-test-name">Name</label>
+                <input
+                  type="text"
+                  class=""
+                  id="modal-skill-test-name"
+                  name="modal-skill-test-name"
+                  required
+                />
+              </div>
+
+              <div class="">
+                <label for="modal-skill-test-surname">Surname</label>
+                <input
+                  type="text"
+                  class=""
+                  id="modal-skill-test-surname"
+                  name="modal-skill-test-surname"
+                  required
+                />
+              </div>
+
+              <div class="">
+                <label for="modal-skill-test-email">Email address</label>
+                <input
+                  type="email"
+                  class=""
+                  id="modal-skill-test-email"
+                  name="modal-skill-test-email"
+                  required
+                />
+              </div>
+
+              <button type="submit" class="">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
